@@ -1,0 +1,25 @@
+{
+  "name": "js-middleware-for-mobile-agents",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "JavaScript Middleware for Mobile Agents Support",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://casv6721@bitbucket.org/teamframeworkjs/frameworkjsnode.git"
+  },
+  "author": "Carlos Silva",
+  "license": "",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.16.2",
+    "getmac": "^1.4.3",
+    "gm": "^1.23.1",
+    "node-serialize": "0.0.4",
+    "os": "^0.1.1",
+    "socket.io": "^2.0.3",
+    "ws": "^3.3.3"
+  }
+}

@@ -1,0 +1,22 @@
+
+
+Desktop Application -> ARCHITECTURE
+  |-> Server socket client with Registry server
+    |-> Receiver listerner() -> for receive mobile agents
+    |-> function MoveTo()
+  |-> Module -> "requiere(example)" api.js - SOCKET SERVER
+    |->MoveTo2()-send to main service MoveTo()
+
+
+
+Application React native->  ARCHITECTURE
+  |-> Server socket client with Registry server
+    |-> Receiver listerner() -> for receive mobile agents
+    |-> No requiere function move()
+  |-> Module -> "requiere(example)" api.js -
+    |-> function MoveTo() -Server socket client with Registry server()
+
+
+Mobile Agent
+api = require('example')
+api.moveto(this)
